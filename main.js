@@ -11,8 +11,16 @@ const app = Vue.createApp({
             ],
             // coding challenge
             sizes:[
-                {id:1, size:'xl'},
-                {id:2, size:'xxl'},
+                {id:1, size:'S'},
+                {id:2, size:'M'},
+                {id:3, size:'L'},
+                {id:4, size:'XL'},
+            ],
+            personal_info:[
+                {id:1,pi:'gcs230307'},
+                {id:2,pi:'gia bao'},
+                {id:3,pi:'week5'},
+                {id:4,pi:'video 5'},
             ]
         }
     }
