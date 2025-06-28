@@ -2,7 +2,11 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            image: './assets/images/socks_blue.jpg'
+            image: './assets/images/socks_blue.jpg',
+            // video
+            inventory: 0,
+            // coding challenge gcs 230307
+            onSale: true,
         }
     }
 })
