@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return{
             product: 'Socks',
             // coding challenge
-            description: 'A pair of socks',
+            description: 'A pair of warm, cozy socks',
         }
     }
     
