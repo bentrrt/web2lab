@@ -16,7 +16,7 @@ const app = Vue.createApp({
         addToCart() {
             this.cart += 1
         },
-        updatevariant(index) {
+        updateVariant(index) {
             this.selectedVariant = index
         }
     },
