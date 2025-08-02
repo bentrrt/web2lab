@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,6 +14,10 @@
       <h1>{{ product }}</h1>
       <!-- coding challenge gcs230307 -->
       <h2>{{ description }}</h2>
+      <button @click="awesome = !awesome">Toggle</button>
+
+      <h1 v-if="awesome">Vue is awesome!</h1>
+      <h1 v-else>Oh no 😢</h1>
     </div>
     <!-- Import Js -->
     <script src="./main.js"></script>
