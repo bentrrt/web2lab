@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Vue Mastery</title>
+    <title>Vue Mastery GCS230307</title>
     <!-- Import Styles -->
     <link rel="stylesheet" href="./assets/styles.css" />
     <!-- Import Vue.js -->
@@ -12,8 +12,13 @@
     <div id="app">
       <div class="nav-bar"></div>
 
-      <div class="cart">Cart({{ cart }})</div>
-      <product-display :premium="premium"></product-display>
+      <div class="cart">Cart({{ cart.length }})</div>
+      <product-display 
+        :premium="premium" 
+        @add-to-cart="updateCart"
+
+        @remove-from-cart-item="removeByIdItem"> 
+      </product-display>
     </div>
 
     <!-- Import App -->
