@@ -87,7 +87,7 @@ app.component('product-display', {
       },
       shipping() {
         if (this.premium) {
-          return 'Free'
+          return 'Free/ GCS230307'
         }
         return 2.99
       }
